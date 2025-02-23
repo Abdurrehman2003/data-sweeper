@@ -34,7 +34,7 @@ Data Sweeper is a Streamlit web application that allows you to:
 1.  **Clone the Repository:**
 
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/data-sweeper.git](https://github.com/YOUR_USERNAME/data-sweeper.git)
+    git clone [https://github.com/Abdurrehman2003/data-sweeper.git](https://github.com/Abdurrehman2003/data-sweeper.git)
     cd data-sweeper
     ```
 
@@ -85,4 +85,4 @@ Feel free to contribute to this project by submitting pull requests or opening i
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE) (Replace with your License if needed).
+This project is licensed under the [MIT License](LICENSE) 
