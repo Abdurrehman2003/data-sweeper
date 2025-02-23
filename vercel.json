@@ -1,0 +1,22 @@
+{
+  "builds": [
+    {
+      "src": "app.py",
+      "use": "@vercel/python",
+      "config": { "runtime": "python3.13.2" }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "app.py"
+    }
+  ],
+  "functions": {
+    "app.py": {
+      "runtime": "@vercel/python",
+      "handler": "app.handler",
+      "entrypoint": "streamlit run app.py"
+    }
+  }
+}
