@@ -8,7 +8,6 @@
   "functions": {
     "app.py": {
       "runtime": "@vercel/python",
-      "handler": "app.handler",
       "entrypoint": "streamlit run app.py"
     }
   }
